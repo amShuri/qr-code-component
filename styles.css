@@ -3,8 +3,9 @@
 :root {
   --main-bg-clr: hsl(212, 45%, 89%);
   --card-bg-clr: hsl(0, 0%, 100%);
-  --title-clr: hsl(218, 44%, 22%);
-  --description-clr: hsl(216, 15%, 48%);
+  --card-title-clr: hsl(218, 44%, 22%);
+  --card-text-clr: hsl(216, 15%, 48%);
+  --attribution-text-clr: hsl(228, 45%, 44%);
 }
 
 * {
@@ -66,12 +67,12 @@ footer {
 }
 
 .card-title {
-  color: var(--title-clr);
+  color: var(--card-title-clr);
   font-weight: 700;
 }
 
 .card-description {
-  color: var(--description-clr);
+  color: var(--card-text-clr);
   font-size: 1rem;
   font-weight: 400;
   padding: 0 1rem;
@@ -83,7 +84,7 @@ footer {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--attribution-text-clr);
 }
 
 /* Main margin only needed on small screens — remove it above 400px */
