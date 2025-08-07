@@ -31,23 +31,14 @@ main {
   margin: 0 1rem;
 }
 
-footer {
-  margin-bottom: 0.5rem;
-}
-
-h1 {
-  font-weight: 700;
-}
-
-p {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
 img {
   border-radius: 0.75rem;
   height: auto;
   width: 100%;
+}
+
+footer {
+  margin-bottom: 0.5rem;
 }
 
 .card {
@@ -69,10 +60,13 @@ img {
 
 .card-title {
   color: hsl(218, 44%, 22%);
+  font-weight: 700;
 }
 
 .card-description {
   color: hsl(216, 15%, 48%);
+  font-size: 1rem;
+  font-weight: 400;
   padding: 0 1rem;
 }
 
